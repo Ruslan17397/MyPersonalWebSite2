@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+    <title>Ruslan Melnyk | Personal WebSite</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Ruslan</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="./index.html" class="nav-link active-link">Головна</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="./about.html" class="nav-link">Про мене</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="./education.html" class="nav-link">ЗВО</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="./profession.html" class="nav-link">Професія</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="./contact.html" class="nav-link">Контакти</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Мельник Руслан</span>
+            </div>
+            <div class="featured-name">
+                <p>Я <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Під час верстки даного сайту використовував HTML/СSS, а також,з метою додати більшої динамічності використовував JS.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a class="btn blue-btn"  href="./about.html">Про мене</a>
+                <a class="btn" href="./contact.html">Контакти</a>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="./images/avatar.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#footer" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+   </main>
+       
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer id="footer">
+        <div class="top-footer">
+            <p>Ruslan Melnyk.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="./index.html">Головна</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./about.html">Про мене</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./education.html">ЗВО</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./profession.html">Професія</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="./contact.html">Контакти</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="./index.html" style="text-decoration: none;">Ruslan Melnyk</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+           var typingEffect = new Typed(".typedText",{
+      strings : ["Студент","Розробник"],
+      loop : true,
+      typeSpeed : 100, 
+      backSpeed : 80,
+      backDelay : 2000
+   })
+    </script>
+</body>
+</html>
